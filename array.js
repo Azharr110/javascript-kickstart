@@ -1,6 +1,6 @@
 let fruits = ["Apple", "Orange", "Papaya"];
 let myFruit = fruits[2];
-console.log(myFruit);
+// console.log(myFruit);
 
 let courses = [
   {
@@ -24,14 +24,61 @@ let courses = [
   { id: 40, name: "computers", marks: 27, chapters: ["D.S", "Java", "C++"] },
 ];
 
-console.log("Name = ", course[0].name);
-console.log("Marks = ", course[0].marks);
-console.log("Chapter = ", course[0].chapters);
+// console.log("Name = ", courses[0].name);
+// console.log("Marks = ", courses[0].marks);
+// console.log("Chapter = ", courses[0].chapters);
 
-console.log("----------------------- Improved");
+// console.log("----------------------- Improved");
 let myCourse = courses[0];
-console.log(myCourse);
-console.log("Name = ", myCourse.name);
-console.log("Marks = ", myCourse.marks);
-console.log("Chapter = ", myCourse.chapters);
+// console.log(myCourse);
+// console.log("Name = ", myCourse.name);
+// console.log("Marks = ", myCourse.marks);
+// console.log("Chapter = ", myCourse.chapters);
+
+// courses.forEach((element) => {
+//   console.log("Name = ", element.name);
+//   console.log("Marks = ", element.marks);
+//   console.log("Chapter = ", element.chapters);
+// });
+
+const outputCourses = courses.map((myCourse, index) => {
+  // delete myCourse.name;
+  return { ...myCourse, title: myCourse.name };
+});
+console.log(outputCourses);
+
 // Array Functions
+
+let planets = [
+  "Earth",
+  "Mars",
+  "Jupiter",
+  "Venus",
+  "Saturn",
+  "SMAC",
+  "Neptune",
+  "Pluto",
+  "Sun",
+];
+
+// Problem [Brute Force]
+// console.log(planets[0]);
+// console.log(planets[1]);
+// console.log(planets[2]);
+// console.log(planets[3]);
+// console.log(planets[4]);
+// console.log(planets[5]);
+// console.log(planets[6]);
+
+//
+
+// planets.forEach((element, index) => {
+//   console.log("Planet #", index, ": ", element);
+// });
+
+const outputPlanet = planets.map((element, index) => {
+  // console.log("Planet #", index, ": ", element);
+  return { id: index, name: element, initial: element.charAt(0) };
+});
+
+// console.log(outputPlanet);
