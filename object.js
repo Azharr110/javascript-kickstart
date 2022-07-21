@@ -22,6 +22,7 @@ let student = {
   isMember: true,
 };
 
+console.log("Name = ", student);
 // console.log("---------------------------------------------------");
 // console.log("id =", student.id);
 // console.log("name =", student.name);
