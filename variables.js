@@ -15,3 +15,5 @@ let student = {
 let courses = ["english", "maths", "physics"];
 //function as a variable
 let printBookTitle = (book) => console.log(book);
+
+printBookTitle(books);

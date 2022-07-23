@@ -28,17 +28,19 @@ let courses = [
 // console.log("Marks = ", courses[0].marks);
 // console.log("Chapter = ", courses[0].chapters);
 
-// console.log("----------------------- Improved");
-let myCourse = courses[0];
+// // console.log("----------------------- Improved");
+// let myCourse = courses[0];
 // console.log(myCourse);
 // console.log("Name = ", myCourse.name);
 // console.log("Marks = ", myCourse.marks);
 // console.log("Chapter = ", myCourse.chapters);
 
 // courses.forEach((element) => {
-// console.log("Name = ", element.name);
-// console.log("Marks = ", element.marks);
-// console.log("Chapter = ", element.chapters);
+//   if (element.id === 20) {
+//     console.log("Name = ", element.name);
+//     console.log("Marks = ", element.marks);
+//     console.log("Chapter = ", element.chapters);
+//   }
 // });
 
 const outputCourses = courses.map((myCourse, index) => {

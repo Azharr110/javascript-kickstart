@@ -8,7 +8,7 @@
 // console.log(x * y);
 // console.log(x / y);
 // console.log(x % y);
-//console.log(x ** y);
+// console.log(x ** y);
 
 //Increament (++)
 
@@ -28,6 +28,7 @@
 
 // x = x * 3;
 // x *= 3;
+// console.log(x);
 
 // Comparision Operators
 
@@ -87,8 +88,8 @@ console.log(type);
 // console.log(y);
 
 //q4
-//let x = (2 + 3) * (4 + 5);
-//console.log(x);
+// let x = (2 + 3) * (4 + 5);
+// console.log(x);
 
 //Exercise swap colors
 
@@ -99,5 +100,5 @@ console.log(type);
 // a = b;
 // b = c;
 
-//console.log(a);
-//console.log(b);
+// console.log("a = :", a);
+// console.log(b);
