@@ -36,16 +36,16 @@ let myCourse = courses[0];
 // console.log("Chapter = ", myCourse.chapters);
 
 // courses.forEach((element) => {
-//   console.log("Name = ", element.name);
-//   console.log("Marks = ", element.marks);
-//   console.log("Chapter = ", element.chapters);
+// console.log("Name = ", element.name);
+// console.log("Marks = ", element.marks);
+// console.log("Chapter = ", element.chapters);
 // });
 
 const outputCourses = courses.map((myCourse, index) => {
   // delete myCourse.name;
   return { ...myCourse, title: myCourse.name };
 });
-console.log(outputCourses);
+// console.log(outputCourses);
 
 // Array Functions
 
@@ -82,3 +82,21 @@ const outputPlanet = planets.map((element, index) => {
 });
 
 // console.log(outputPlanet);
+
+//SPREAD FUNCTION
+//---
+// Ex-1
+// const numbers = [1, 2, 3, 4, 5];
+// const newNumbers = [...numbers, 6];
+// console.log(newNumbers);
+//---
+//Ex-2
+// const person = {
+//   name: "Azhar",
+// };
+
+// const newPerson = {
+//   ...person,
+//   age: 22,
+// };
+// console.log(newPerson);
