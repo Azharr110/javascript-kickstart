@@ -16,5 +16,5 @@ let x = 9;
 // console.log("9 x 10 =", x * 10);
 
 for (let i = 1; i <= 10; i++) {
-  console.log(`9 x ${i} =`, x * i);
+  console.log("9 x ", i, "=", x * i);
 }
